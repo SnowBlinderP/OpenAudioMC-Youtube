@@ -11,13 +11,15 @@ Please be aware that the First Load of a Link might Take a While (max of 1 Min)
 
 You can download the Latest Version here:
 
+[Git - SnowDNS - Downloads](https://git.snowdns.de/SnowBlinderP/openaudioyt-addon/-/jobs/artifacts/master/browse?job=Create-And-Save)
+
 
 
 # Support
 
 Telegram: https://t.me/SnowBlinderP
 
-Discord: Snow ❄⛄#0748 or https://discord.gg/KQBySQ5
+Discord: Snow ❄⛄#0748 or ht[Discord}ps
 
 # Privacy
 
