@@ -7,6 +7,7 @@ Please be aware that the First Load of a Link might Take a While (max of 1 Min)
 # Support
 
 Telegram: https://t.me/SnowBlinderP
+
 Discord: Snow ❄⛄#0748 or https://discord.gg/KQBySQ5
 
 # Privacy
