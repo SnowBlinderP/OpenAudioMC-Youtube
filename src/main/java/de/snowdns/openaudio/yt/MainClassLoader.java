@@ -22,6 +22,6 @@ public class MainClassLoader extends JavaPlugin {
         api.registerMutation("https://www.youtube.com", mutation);
         api.registerMutation("http://www.youtube.com", mutation);
         this.getLogger().log(Level.INFO,"Done Registering URL Mutations");
-        this.getLogger().log(Level.INFO,"SnowDNS OpenAudioMC Addon Ready for Rumble");
+        this.getLogger().log(Level.INFO,"SnowDNS OpenAudioMC Addon Ready for Rumble!");
     }
 }
