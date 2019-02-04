@@ -26,6 +26,7 @@ public class UrlGayNess implements UrlMutation {
         } else {
             this.main.getLogger().log(INFO,"Final VID: " + videoid);
         }
+        this.main.getLogger().log(INFO,"Loading the Ressource might take up to a Minute when its loaded for the First Time - Please Wait");
         String ServerURL = "https://oa-yt.snowdns.de/?v=" + videoid + "&serverid=" + openAudioMc.getServer().getServerId() + "&ip=" + openAudioMc.getServer().getIp();
     return ServerURL;
     }
