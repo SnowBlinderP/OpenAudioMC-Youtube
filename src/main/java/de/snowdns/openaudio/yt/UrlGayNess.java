@@ -17,7 +17,7 @@ public class UrlGayNess implements UrlMutation {
         String videoid = s;
         videoid = videoid.replace("https://","").replace("http://","");
         videoid = videoid.replace("www","").replace("youtube.com","").replace("youtu.be","");
-        videoid = videoid.replace("/","").replace("?v=","");
+        videoid = videoid.replace("/","").replace("?v=","").replace("watch","").replace(".","");
         if (videoid.contains("&")){
             this.main.getLogger().log(INFO,"URL Mutation Contains More than 1 Argument - Cutting -> " + videoid);
             String[] args = videoid.split("&");
