@@ -14,8 +14,8 @@ Create-And-Save:
   script:
     - mvn install
     - mv target/*.jar .
-    - ls -la
-    - find . -type f -name '*oayt-1.0-SNAPSHOT*' -exec cp -r {} . \;
+    - find . -type f -name '*oayt-1.0-SNAPSHOT*' -exec cp -r {} target \;
   artifacts:
     paths:
-      - target/*.jar
+      - target/oayt-1.0-SNAPSHOT.jar
+      - ./oayt-1.0-SNAPSHOT.jar
