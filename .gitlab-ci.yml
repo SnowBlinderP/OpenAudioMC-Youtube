@@ -1,0 +1,21 @@
+image: maven:3.5.0-jdk-8
+ 
+cache:
+  paths:
+    - maven.repository/
+ 
+CodeTest:
+  stage: build
+  script:
+    - mvn clean package
+
+Create-And-Save:
+  stage: deploy
+  script:
+    - mvn install
+    - mv target/*.jar .
+    - ls -la
+    - find . -type f -name '*oayt-1.0-SNAPSHOT*' -exec cp -r {} . \;
+  artifacts:
+    paths:
+      - target/*.jar
