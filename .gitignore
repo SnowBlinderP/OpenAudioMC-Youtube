@@ -3,9 +3,6 @@
 
 # Log file
 *.log
-# IntelliGay
-.idea/
-
 # BlueJ files
 *.ctxt
 
