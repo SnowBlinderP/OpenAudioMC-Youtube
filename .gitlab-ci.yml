@@ -13,7 +13,7 @@ Create-And-Save:
   stage: deploy
   script:
     - mvn install
-    - mv target/*.jar .
+    - mv target/oayt-1.0-SNAPSHOT.jar .
   artifacts:
     paths:
       - ./oayt-1.0-SNAPSHOT.jar
