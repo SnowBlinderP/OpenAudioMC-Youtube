@@ -11,7 +11,6 @@ CodeTest:
 
 
 Coverage:
- stage: build
  script:
  -"mvn install -B"
  -"cat target/site/jacoco/index.html"
