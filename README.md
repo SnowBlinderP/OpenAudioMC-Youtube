@@ -1,5 +1,5 @@
-
 [![pipeline status](https://git.snowdns.de/SnowBlinderP/openaudioyt-addon/badges/master/pipeline.svg)](https://git.snowdns.de/SnowBlinderP/openaudioyt-addon/commits/master)
+(@Github - Only Code Updates)
 
 # OpenAudio MC Youtube Integration
 
@@ -20,4 +20,6 @@ After that TimeFrame older DataSets get Automatically deyeetet
 
 # Contribute
 
-Feel free to make a Pull Request
+Feel free to make a Pull Request or Open an Issue @ https://git.snowdns.de/SnowBlinderP/openaudioyt-addon
+
+
