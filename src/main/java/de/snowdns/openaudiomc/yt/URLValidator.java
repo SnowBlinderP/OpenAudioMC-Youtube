@@ -1,15 +1,15 @@
-package de.snowdns.openaudio.yt;
+package de.snowdns.openaudiomc.yt;
 
 import com.craftmend.openaudiomc.OpenAudioMc;
 import com.craftmend.openaudiomc.modules.media.interfaces.UrlMutation;
 
 import static java.util.logging.Level.INFO;
 
-public class UrlGayNess implements UrlMutation {
+public class URLValidator implements UrlMutation {
 
-    private MainClassLoader main;
+    private PluginLoader main;
 
-    public UrlGayNess(MainClassLoader main){
+    public URLValidator(PluginLoader main){
         this.main = main;
     }
     @Override

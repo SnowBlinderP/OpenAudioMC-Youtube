@@ -1,4 +1,4 @@
-package de.snowdns.openaudio.yt;
+package de.snowdns.openaudiomc.yt;
 
 import com.craftmend.openaudiomc.OpenAudioMc;
 import com.craftmend.openaudiomc.modules.api.objects.OpenAudioApi;
@@ -6,13 +6,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Level;
 
-public class MainClassLoader extends JavaPlugin {
+public class PluginLoader extends JavaPlugin {
     @Override
     public void onEnable() {
         OpenAudioApi api = OpenAudioMc.getApi();
         this.getLogger().log(Level.INFO,"Enabling YT Support for OpenAudioMC");
         this.getLogger().log(Level.INFO,"Registering URL Mutations");
-        UrlGayNess mutation = new UrlGayNess(this);
+        URLValidator mutation = new URLValidator(this);
         api.registerMutation("https://youtu.be", mutation);
         api.registerMutation("http://youtu.be", mutation);
         api.registerMutation("https://youtube.com", mutation);
