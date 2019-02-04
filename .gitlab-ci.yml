@@ -11,9 +11,10 @@ CodeTest:
 
 
 Coverage:
- script:
- -"mvn install -B"
- -"cat target/site/jacoco/index.html"
+    stage: build
+    script:
+    - mvn install -B
+    - cat target/site/jacoco/index.html
  
 
 Create-And-Save:
