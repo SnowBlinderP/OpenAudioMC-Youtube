@@ -1,3 +1,6 @@
+
+[![pipeline status](https://git.snowdns.de/SnowBlinderP/openaudioyt-addon/badges/master/pipeline.svg)](https://git.snowdns.de/SnowBlinderP/openaudioyt-addon/commits/master)
+
 # OpenAudio MC Youtube Integration
 
 With this Addon for OpenAudioMC you can use Youtube URLs as Sound Links
