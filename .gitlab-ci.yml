@@ -9,6 +9,14 @@ CodeTest:
   script:
     - mvn clean package
 
+
+Coverage:
+ stage: build
+ script:
+ -"mvn install -B"
+ -"cat target/site/jacoco/index.html"
+ 
+
 Create-And-Save:
   stage: deploy
   script:
