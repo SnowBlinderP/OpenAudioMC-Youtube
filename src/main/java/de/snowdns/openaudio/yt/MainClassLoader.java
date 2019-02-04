@@ -12,19 +12,12 @@ public class MainClassLoader extends JavaPlugin {
         OpenAudioApi api = OpenAudioMc.getApi();
         this.getLogger().log(Level.INFO,"Enabling YT Support for OpenAudioMC");
         this.getLogger().log(Level.INFO,"Registering URL Mutations");
-        api.registerMutation("https://youtu.be",new UrlGayNess(this));
-        api.registerMutation("http://youtu.be",new UrlGayNess(this));
-        api.registerMutation("https://youtube.com",new UrlGayNess(this));
-        api.registerMutation("http://youtube.com",new UrlGayNess(this));
-        api.registerMutation("https://www.youtu.be",new UrlGayNess(this));
-        api.registerMutation("http://www.youtu.be",new UrlGayNess(this));
-        api.registerMutation("https://www.youtube.com",new UrlGayNess(this));
-        api.registerMutation("http://www.youtube.com",new UrlGayNess(this));
+        UrlGayNess mutation = new UrlGayNess(this);
+        api.registerMutation("https://youtu.be", mutation);
+        api.registerMutation("http://youtu.be", mutation);
+        api.registerMutation("https://youtube.com", mutation);
+        api.registerMutation("http://youtube.com", mutation);
         this.getLogger().log(Level.INFO,"Done Registering URL Mutations");
         this.getLogger().log(Level.INFO,"SnowDNS OpenAudioMC Addon Ready for Rumble");
-    }
-    @Override
-    public void onDisable() {
-        OpenAudioApi api = OpenAudioMc.getApi();
     }
 }
