@@ -17,9 +17,9 @@ You can download the Latest Version here:
 
 # Support
 
-Telegram: https://t.me/SnowBlinderP
+Telegram: [SnowBlinderP](https://t.me/SnowBlinderP)
 
-Discord: Snow ❄⛄#0748 or ht[Discord}ps
+Discord: Snow ❄⛄#0748 or [Discord](https://discord.gg/KQBySQ5)
 
 # Privacy
 
@@ -29,7 +29,7 @@ After that TimeFrame older DataSets get Automatically deyeetet
 # Contribute
 (@Github - Only Code Updates)
 
-Feel free to make a Pull Request or Open an Issue @ https://git.snowdns.de/SnowBlinderP/openaudioyt-addon
+Feel free to make a Pull Request or Open an Issue @ [SnowDNS Gitlab](https://git.snowdns.de/SnowBlinderP/openaudioyt-addon)
 
 Issues or Pull Requests @ Github might get Ignored
 
