@@ -1,6 +1,6 @@
-name: OpenAudioYT
-version: 1.4.2
-description: Youtube Proxy Addon for OpenAudioMC
+name: OpenAudioMC-YT
+version: 1.4.2.11
+description: Youtube Proxy / URL Addon for OpenAudioMC
 author: SnowBlinderP
 main: de.snowdns.openaudiomc.yt.PluginLoader
 depend: [OpenAudioMc]
