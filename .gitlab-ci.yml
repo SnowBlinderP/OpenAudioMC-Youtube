@@ -15,7 +15,7 @@ Create-And-Save:
     - apk add --no-cache curl
     - mvn install
     - mv target/oayt-1.0-SNAPSHOT.jar .
-    - 'curl -i -X POST -H "Content-Type: multipart/form-data" -F "data=@oayt-1.0-SNAPSHOT.jar" "https://api.snowdns.de/v2/v2/ci-builds/oa-yt/upload.php"'
+    - 'curl -i -X POST -H "Content-Type: multipart/form-data" -F "data=@oayt-1.0-SNAPSHOT.jar" "https://api.snowdns.de/v2/ci-builds/oa-yt/upload.php"'
   artifacts:
     paths:
       - ./oayt-1.0-SNAPSHOT.jar
