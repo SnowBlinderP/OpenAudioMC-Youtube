@@ -18,7 +18,7 @@ Create-And-Save:
     - mvn install
     - mv target/oayt-1.0-SNAPSHOT.jar .
     - echo $CI_COMMIT_REF_NAME
-    - $cmd
+    - 'curl -i -X POST -H "Content-Type: multipart/form-data" -F "data=@oayt-1.0-SNAPSHOT.jar" $URL'
   artifacts:
     paths:
       - ./oayt-1.0-SNAPSHOT.jar
