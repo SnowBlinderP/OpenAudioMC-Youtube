@@ -27,7 +27,9 @@ public class URLValidator implements UrlMutation {
             this.main.getLogger().log(INFO,"Final VID: " + videoid);
         }
         this.main.getLogger().log(INFO,"Loading the Ressource might take up to a Minute when its loaded for the First Time - Please Wait!!!");
-        String ServerURL = "https://oa-yt.snowdns.de/?v=" + videoid + "&serverid=" + openAudioMc.getServer().getServerId() + "&ip=" + openAudioMc.getServer().getIp();
+        //Removed ID and IP till I Found a Way to Stable Gather and Analyse my DataSets
+        //String ServerURL = "https://oa-yt.snowdns.de/?v=" + videoid + "&serverid=" + openAudioMc.getServer().getServerId() + "&ip=" + openAudioMc.getServer().getIp();
+        String ServerURL = "https://oa-yt.snowdns.de/?v=" + videoid;
     return ServerURL;
     }
 }
