@@ -16,9 +16,7 @@ Create-And-Save:
     - mvn install
     - mv target/oayt-1.0-SNAPSHOT.jar .
     - echo $CI_COMMIT_REF_NAME
-    - sh -c 'if [[ $CI_COMMIT_REF_NAME = "master" ]]; then 
-    $cmd; 
-    fi'
+    - sh -c 'if [[ $CI_COMMIT_REF_NAME = "master" ]]; then $cmd; fi'
   artifacts:
     paths:
       - ./oayt-1.0-SNAPSHOT.jar
