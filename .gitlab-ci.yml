@@ -11,12 +11,28 @@ CodeTest:
 
 Create-And-Save:
   stage: deploy
+  only:
+    - master
   script:
     - apk add --no-cache curl
     - mvn install
     - mv target/oayt-1.0-SNAPSHOT.jar .
     - echo $CI_COMMIT_REF_NAME
-    - sh -c 'if [[ $CI_COMMIT_REF_NAME = "master" ]]; then $cmd; fi'
+    - $cmd
   artifacts:
     paths:
       - ./oayt-1.0-SNAPSHOT.jar
+      
+Create-And-Save-DevelopMent:
+  stage: deploy
+  only:
+    - development
+  script:
+    - apk add --no-cache curl
+    - mvn install
+    - mv target/oayt-1.0-SNAPSHOT.jar .
+    - $deverror
+  artifacts:
+    paths:
+      - ./oayt-1.0-SNAPSHOT.jar
+
