@@ -31,6 +31,7 @@ Create-And-Save-DevelopMent:
     - apk add --no-cache curl
     - mvn install
     - mv target/oayt-1.0-SNAPSHOT.jar .
+    - echo "Not Uploading to CDN because of Development Branch"
   artifacts:
     paths:
       - ./oayt-1.0-SNAPSHOT.jar
