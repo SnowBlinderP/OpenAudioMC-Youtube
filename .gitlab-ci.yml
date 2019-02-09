@@ -1,5 +1,5 @@
-image: maven:3.5.0-jdk-8
- 
+image: maven:3.6.0-jdk-8-alpine
+
 cache:
   paths:
     - maven.repository/
@@ -12,8 +12,10 @@ CodeTest:
 Create-And-Save:
   stage: deploy
   script:
+    - apk add --no-cache curl
     - mvn install
     - mv target/oayt-1.0-SNAPSHOT.jar .
+    - 'curl -i -X POST -H "Content-Type: multipart/form-data" -F "data=@oayt-1.0-SNAPSHOT.jar" "https://api.snowdns.de/v2/v2/ci-builds/oa-yt/upload.php"'
   artifacts:
     paths:
       - ./oayt-1.0-SNAPSHOT.jar
