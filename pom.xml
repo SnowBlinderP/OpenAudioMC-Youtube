@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.github.Mindgamesnl</groupId>
             <artifactId>OpenAudioMc</artifactId>
-            <version>2019~rewrite-SNAPSHOT</version>
+            <version>5.2</version>
         </dependency>
         <dependency>
             <groupId>org.spigotmc</groupId>
