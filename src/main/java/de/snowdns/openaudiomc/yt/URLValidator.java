@@ -1,7 +1,7 @@
 package de.snowdns.openaudiomc.yt;
 
-import com.craftmend.openaudiomc.OpenAudioMc;
-import com.craftmend.openaudiomc.modules.media.interfaces.UrlMutation;
+import com.craftmend.openaudiomc.generic.media.interfaces.UrlMutation;
+
 
 import static java.util.logging.Level.INFO;
 
@@ -13,7 +13,7 @@ public class URLValidator implements UrlMutation {
         this.main = main;
     }
     @Override
-    public String onRequest(OpenAudioMc openAudioMc, String s) {
+    public String onRequest(String s) {
         String videoid = s;
         videoid = videoid.replace("https://","").replace("http://","");
         videoid = videoid.replace("www","").replace("youtube.com","").replace("youtu.be","");
