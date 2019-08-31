@@ -23,7 +23,7 @@ Discord: Snow ❄⛄#0748 or [Discord](https://discord.gg/KQBySQ5)
 
 # Privacy
 
-We might save Your IP and ServerID for up to 1 Hour for Data Analytics and Abuse Prevention
+We might save Your IP and ServerID for up to 6 Months for Data Analytics and Abuse Prevention
 After that TimeFrame older DataSets get Automatically deyeetet
 
 # Contribute
