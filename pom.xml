@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.github.Mindgamesnl</groupId>
             <artifactId>OpenAudioMc</artifactId>
-            <version>master-SNAPSHOT</version>
+            <version>0202143757</version>
         </dependency>
         <dependency>
             <groupId>org.spigotmc</groupId>
