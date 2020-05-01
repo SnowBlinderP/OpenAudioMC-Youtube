@@ -1,0 +1,5 @@
+name: OpenAudioMC-YT
+main: de.snowdns.openaudiomc.yt.BungeeLoader
+version: 1.0
+author: snowblinderp
+depends: [OpenAudioMc]
