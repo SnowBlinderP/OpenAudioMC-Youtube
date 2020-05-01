@@ -16,12 +16,13 @@ Create-And-Save:
   script:
     - apk add --no-cache curl
     - mvn install
-    - mv target/oayt-1.0-SNAPSHOT.jar .
+    - mv target/oayt-1.0.jar .
     - echo $CI_COMMIT_REF_NAME
-    - 'curl -i -X POST -H "Content-Type: multipart/form-data" -F "data=@oayt-1.0-SNAPSHOT.jar" $URL'
+    - mv oayt-1.0.jar OpenAudioMC-YT.jar
+    - 'curl -i -X POST -H "Content-Type: multipart/form-data" -F "data=@OpenAudioMC-YT.jar" $URL'
   artifacts:
     paths:
-      - ./oayt-1.0-SNAPSHOT.jar
+      - ./OpenAudioMC-YT.jar
       
 Create-And-Save-DevelopMent:
   stage: deploy
@@ -30,9 +31,10 @@ Create-And-Save-DevelopMent:
   script:
     - apk add --no-cache curl
     - mvn install
-    - mv target/oayt-1.0-SNAPSHOT.jar .
+    - mv target/oayt-1.0.jar .
+    - mv oayt-1.0.jar OpenAudioMC-YT.jar
     - $deverror
   artifacts:
     paths:
-      - ./oayt-1.0-SNAPSHOT.jar
+      - ./OpenAudioMC-YT.jar
 
