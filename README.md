@@ -1,4 +1,4 @@
-[![pipeline status](https://git.snowdns.de/SnowBlinderP/openaudioyt-addon/badges/master/pipeline.svg)](https://git.snowdns.de/SnowBlinderP/openaudioyt-addon/commits/master)
+[![pipeline status](https://git.snowdns.de/SnowDNS-DE/OpenAudioMC/openaudioyt-addon/badges/master/pipeline.svg)](https://git.snowdns.de/SnowDNS-DE/OpenAudioMC/openaudioyt-addon/commits/master)
 
 
 # OpenAudio MC Youtube Integration
@@ -11,7 +11,7 @@ Please be aware that the First Load of a Link might Take a While (max of 1 Min)
 
 You can download the Latest Version here:
 
-[Git - SnowDNS - Downloads](https://git.snowdns.de/SnowBlinderP/openaudioyt-addon/-/jobs/artifacts/master/browse?job=Create-And-Save)
+[Git - SnowDNS - Downloads](https://git.snowdns.de/SnowDNS-DE/OpenAudioMC/openaudioyt-addon/-/jobs/artifacts/master/browse?job=Create-And-Save)
 
 
 
@@ -29,7 +29,7 @@ After that TimeFrame older DataSets get Automatically deyeetet
 # Contribute
 (@Github - Only Code Updates)
 
-Feel free to make a Pull Request or Open an Issue @ [SnowDNS Gitlab](https://git.snowdns.de/SnowBlinderP/openaudioyt-addon)
+Feel free to make a Pull Request or Open an Issue @ [SnowDNS Gitlab](https://git.snowdns.de/SnowDNS-DE/OpenAudioMC/openaudioyt-addon/)
 
 Issues or Pull Requests @ Github might get Ignored
 
